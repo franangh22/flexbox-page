@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Roboto:wght@100&family=Rubik&display=swap");
+
+:root {
+  --color-pastelYE: #fbffa7;
+  --color-pastelLB: #b1c5ff;
+  --color-PastelG: #b6ffc0;
+  --color-PastelOr: #ff764d;
+  --color-PastelPurp: #d5b3ff;
+  --color-PastelBl: #0000ff;
+  --color-bg: #38383d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: var(--color-bg);
+}
+
+.header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  border-radius: 12px;
+  color: #ff764d;
+  box-shadow: 0px 5px 10px #131313de;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 3em;
+  margin-top: 1.5em;
+}
+
+.navbar li a {
+  color: #ffff;
+  text-decoration: none;
+  box-shadow: 0px 1px #ff764d;
+  font-size: 1em;
+  padding: 20px;
+  transition: 0.5s;
+  border-radius: 2px;
+}
+.navbar li a:hover {
+  background-color: #3e3e42;
+  box-shadow: 0px 5px #ff764d;
+  padding: 20px;
+}
+.navbar a:active {
+  color: #d5b3ff;
+}
+.navbar a:visited {
+  color: #ad5236;
+}
+
+.principal-container {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+.glass {
+  padding: 35px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid #38383d9a;
+}
+
+.principal-container p {
+  padding: 10px;
+}
+
+.navbar .logo {
+  padding: 25px;
+  margin: 2px;
+}
+
+.logo a {
+  color: #ffff;
+  margin: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.5s;
+}
+.logo a:hover {
+  border-radius: 4px;
+  box-shadow: 0px 2px #ff764d;
+}
+
+.logo .bx {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  margin: 10px;
+}
+
+.card {
+  height: 100%;
+  width: 50%;
+  background-color: #7e7e7e;
+  
+}
