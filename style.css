@@ -115,14 +115,21 @@ body {
 
 .container-grid {
   display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 10px;
-  margin: 10px;
+  grid-template-columns: 1fr 1fr;
+  gap: 5;
+  margin: 5px;
 }
 
 .card {
   height: 100%;
   width: 50%;
   background-color: #7e7e7e;
-  
+}
+
+.container-grid .articulos p{   
+  padding: 35px;
+}
+
+.container-grid .articulos h2{   
+  text-align: center;
 }
